@@ -9,6 +9,8 @@ export const xpath = {
 
     homePage: {
     buttonMenu: "//button[@id='react-burger-menu-btn']",
-    logout: "//a[@id='logout_sidebar_link']"
+    logout: "//a[@id='logout_sidebar_link']",
+    backpackAddCart: '[data-test="add-to-cart-sauce-labs-backpack"]',
+    removeCartButton: '[data-test="remove-sauce-labs-backpack"]'
     }
 }
